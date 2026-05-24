@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+*.egg
+
+# Virtual env
+venv/
+.venv/
+env/
+
+# Node
+node_modules/
+dist/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment
+.env
+
+# Database
+**/test.db
+**/*.sqlite3
+
+# Uploads (user files to keep, but list them explicitly)
+backend/uploads/videos/*
+backend/uploads/covers/*
+backend/uploads/avatars/*
+!backend/uploads/videos/.gitkeep
+!backend/uploads/covers/.gitkeep
+!backend/uploads/avatars/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+*.timestamp-*.mjs
