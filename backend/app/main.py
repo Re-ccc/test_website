@@ -26,6 +26,7 @@ app.include_router(user.router, prefix="/api/user", tags=["user"])
 os.makedirs("uploads/videos", exist_ok=True)
 os.makedirs("uploads/covers", exist_ok=True)
 os.makedirs("uploads/avatars", exist_ok=True)
+os.makedirs("data", exist_ok=True)
 app.mount("/uploads", StaticFiles(directory="uploads"), name="uploads")
 
 
